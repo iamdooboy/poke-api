@@ -25,7 +25,14 @@ const data = [
 		types: ['grass', 'poison'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax venusaur',
+				types: ['grass', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/003-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/003.png'
 	},
@@ -55,7 +62,14 @@ const data = [
 		types: ['fire', 'flying'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax charizard',
+				types: ['fire', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/006-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/006.png'
 	},
@@ -85,7 +99,14 @@ const data = [
 		types: ['water'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax blastoise',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/009-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/009.png'
 	},
@@ -115,7 +136,14 @@ const data = [
 		types: ['bug', 'flying'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax butterfree',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/012-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/012.png'
 	},
@@ -245,7 +273,14 @@ const data = [
 		types: ['electric'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax pikachu',
+				types: ['electric'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/025-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/025.png'
 	},
@@ -515,7 +550,14 @@ const data = [
 		types: ['normal'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax meowth',
+				types: ['normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/052-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/052.png'
 	},
@@ -675,7 +717,14 @@ const data = [
 		types: ['fighting'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax machamp',
+				types: ['fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/068-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/068.png'
 	},
@@ -935,7 +984,14 @@ const data = [
 		types: ['ghost', 'poison'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax gengar',
+				types: ['ghost', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/094-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/094.png'
 	},
@@ -985,7 +1041,14 @@ const data = [
 		types: ['water'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax kingler',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/099-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/099.png'
 	},
@@ -1305,7 +1368,14 @@ const data = [
 		types: ['water', 'ice'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax lapras',
+				types: ['water', 'ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/131-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/131.png'
 	},
@@ -1325,7 +1395,14 @@ const data = [
 		types: ['normal'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax eevee',
+				types: ['normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/133-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/133.png'
 	},
@@ -1425,7 +1502,14 @@ const data = [
 		types: ['normal'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax snorlax',
+				types: ['normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/143-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/143.png'
 	},
@@ -3505,7 +3589,26 @@ const data = [
 		types: ['normal'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'sunny form',
+				types: ['fire'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/351-Sunny.png'
+			},
+			{
+				name: 'rainy form',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/351-Rainy.png'
+			},
+			{
+				name: 'snowy form',
+				types: ['ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/351-Snowy.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/351.png'
 	},
@@ -3815,7 +3918,14 @@ const data = [
 		types: ['water'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'primal kyogre',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/382-Primal.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/382.png'
 	},
@@ -3825,7 +3935,14 @@ const data = [
 		types: ['ground'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'primal groudon',
+				types: ['ground', 'fire'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/383-Primal.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/383.png'
 	},
@@ -3851,11 +3968,36 @@ const data = [
 	},
 	{
 		id: '386',
-		name: 'deoxys-normal',
+		name: 'deoxys',
 		types: ['psychic'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'normal forme',
+				types: ['psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/386.png'
+			},
+			{
+				name: 'attack forme',
+				types: ['psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/386-Attack.png'
+			},
+			{
+				name: 'defense forme',
+				types: ['psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/386-Defense.png'
+			},
+			{
+				name: 'speed forme',
+				types: ['psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/386-Speed.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/386.png'
 	},
@@ -4115,17 +4257,53 @@ const data = [
 		types: ['bug'],
 		mega: [],
 		variant: [],
-		forms: [],
-		image:
-			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/412.png'
+		forms: [
+			{
+				name: 'plant cloak',
+				types: ['bug'],
+				image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/412.png'
+			},
+			{
+				name: 'sandy cloak',
+				types: ['bug'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/412-Sandy.png'
+			},
+			{
+				name: 'trash cloak',
+				types: ['bug'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/412-Trash.png'
+			}
+		],
+		image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/412.png'
 	},
 	{
 		id: '413',
-		name: 'wormadam-plant',
+		name: 'wormadam',
 		types: ['bug', 'grass'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'plant cloak',
+				types: ['bug', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/413.png'
+			},
+			{
+				name: 'sandy cloak',
+				types: ['bug', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/413-Sandy.png'
+			},
+			{
+				name: 'trash cloak',
+				types: ['bug', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/413-Trash.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/413.png'
 	},
@@ -4205,7 +4383,20 @@ const data = [
 		types: ['grass'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'overcast form',
+				types: ['grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/421.png'
+			},
+			{
+				name: 'sunshine form',
+				types: ['grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/421-Sunshine.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/421.png'
 	},
@@ -4215,9 +4406,22 @@ const data = [
 		types: ['water'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'west sea',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/422-West.png'
+			},
+			{
+				name: 'east sea',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/422-East.png'
+			}
+		],
 		image:
-			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/422.png'
+			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/422-West.png'
 	},
 	{
 		id: '423',
@@ -4225,9 +4429,22 @@ const data = [
 		types: ['water', 'ground'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'west sea',
+				types: ['water', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/423-West.png'
+			},
+			{
+				name: 'east sea',
+				types: ['water', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/423-East.png'
+			}
+		],
 		image:
-			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/423.png'
+			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/423-West.png'
 	},
 	{
 		id: '424',
@@ -4785,7 +5002,38 @@ const data = [
 		types: ['electric', 'ghost'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'heat rotom',
+				types: ['electric', 'fire'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/479-Heat.png'
+			},
+			{
+				name: 'wash rotom',
+				types: ['electric', 'water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/479-Wash.png'
+			},
+			{
+				name: 'frost rotom',
+				types: ['electric', 'ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/479-Frost.png'
+			},
+			{
+				name: 'fan rotom',
+				types: ['electric', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/479-Fan.png'
+			},
+			{
+				name: 'mow rotom',
+				types: ['electric', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/479-Mow.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/479.png'
 	},
@@ -4825,7 +5073,14 @@ const data = [
 		types: ['steel', 'dragon'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'origin forme',
+				types: ['steel', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/483-Origin.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/483.png'
 	},
@@ -4835,7 +5090,14 @@ const data = [
 		types: ['water', 'dragon'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'origin forme',
+				types: ['water', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/484-Origin.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/484.png'
 	},
@@ -4861,11 +5123,24 @@ const data = [
 	},
 	{
 		id: '487',
-		name: 'giratina-altered',
+		name: 'giratina',
 		types: ['ghost', 'dragon'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'altered forme',
+				types: ['ghost', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/487.png'
+			},
+			{
+				name: 'origin forme',
+				types: ['ghost', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/487-Origin.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/487.png'
 	},
@@ -4911,11 +5186,24 @@ const data = [
 	},
 	{
 		id: '492',
-		name: 'shaymin-land',
+		name: 'shaymin',
 		types: ['grass'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'land forme',
+				types: ['grass', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/492.png'
+			},
+			{
+				name: 'sky forme',
+				types: ['grass', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/492-Sky.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/492.png'
 	},
@@ -5491,13 +5779,32 @@ const data = [
 	},
 	{
 		id: '550',
-		name: 'basculin-red-striped',
+		name: 'basculin',
 		types: ['water'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'red-striped form',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/550-Red-Striped.png'
+			},
+			{
+				name: 'blue-striped form',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/550-Blue-Striped.png'
+			},
+			{
+				name: 'white-striped form',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/550-White-Striped.png'
+			}
+		],
 		image:
-			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/550.png'
+			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/550-Red-Striped.png'
 	},
 	{
 		id: '551',
@@ -5541,11 +5848,41 @@ const data = [
 	},
 	{
 		id: '555',
-		name: 'darmanitan-standard',
+		name: 'darmanitan',
 		types: ['fire'],
 		mega: [],
-		variant: [],
-		forms: [],
+		variant: {
+			name: 'galarian form',
+			types: ['ice'],
+			forms: [
+				{
+					name: 'standard mode',
+					types: ['ice'],
+					image:
+						'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/555-Galar-Standard.png'
+				},
+				{
+					name: 'zen mode',
+					types: ['ice', 'fire'],
+					image:
+						'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/555-Galar-Zen.png'
+				}
+			]
+		},
+		forms: [
+			{
+				name: 'standard mode',
+				types: ['fire'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/555.png'
+			},
+			{
+				name: 'zen mode',
+				types: ['fire', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/555-Zen.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/555.png'
 	},
@@ -5685,7 +6022,14 @@ const data = [
 		types: ['poison'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax garbodor',
+				types: ['poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/569-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/569.png'
 	},
@@ -5845,7 +6189,32 @@ const data = [
 		types: ['normal', 'grass'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'spring form',
+				types: ['normal', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/585.png'
+			},
+			{
+				name: 'summer form',
+				types: ['normal', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/585-Summer.png'
+			},
+			{
+				name: 'autumn form',
+				types: ['normal', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/585-Autumn.png'
+			},
+			{
+				name: 'winter form',
+				types: ['normal', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/585-Winter.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/585.png'
 	},
@@ -5855,7 +6224,32 @@ const data = [
 		types: ['normal', 'grass'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'spring form',
+				types: ['normal', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/586.png'
+			},
+			{
+				name: 'summer form',
+				types: ['normal', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/586-Summer.png'
+			},
+			{
+				name: 'autumn form',
+				types: ['normal', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/586-Autumn.png'
+			},
+			{
+				name: 'winter form',
+				types: ['normal', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/586-Winter.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/586.png'
 	},
@@ -6401,11 +6795,24 @@ const data = [
 	},
 	{
 		id: '641',
-		name: 'tornadus-incarnate',
+		name: 'tornadus',
 		types: ['flying'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'incarnate forme',
+				types: ['flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/641.png'
+			},
+			{
+				name: 'therian forme',
+				types: ['flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/641-Therian.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/641.png'
 	},
@@ -6415,7 +6822,20 @@ const data = [
 		types: ['electric', 'flying'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'incarnate forme',
+				types: ['electric', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/642.png'
+			},
+			{
+				name: 'therian forme',
+				types: ['electric', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/642-Therian.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/642.png'
 	},
@@ -6441,11 +6861,24 @@ const data = [
 	},
 	{
 		id: '645',
-		name: 'landorus-incarnate',
+		name: 'landorus',
 		types: ['ground', 'flying'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'incarnate forme',
+				types: ['ground', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/645.png'
+			},
+			{
+				name: 'therian forme',
+				types: ['ground', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/645-Therian.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/645.png'
 	},
@@ -6455,27 +6888,66 @@ const data = [
 		types: ['dragon', 'ice'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'white kyurem',
+				types: ['dragon', 'ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/646-White.png'
+			},
+			{
+				name: 'black kyurem',
+				types: ['dragon', 'ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/646-Black.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/646.png'
 	},
 	{
 		id: '647',
-		name: 'keldeo-ordinary',
+		name: 'keldeo',
 		types: ['water', 'fighting'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'ordinary form',
+				types: ['water', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/647.png'
+			},
+			{
+				name: 'resolute form',
+				types: ['water', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/647-Resolute.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/647.png'
 	},
 	{
 		id: '648',
-		name: 'meloetta-aria',
+		name: 'meloetta',
 		types: ['normal', 'psychic'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'aria forme',
+				types: ['normal', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/648.png'
+			},
+			{
+				name: 'pirouette forme',
+				types: ['normal', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/648-Pirouette.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/648.png'
 	},
@@ -6575,7 +7047,14 @@ const data = [
 		types: ['water', 'dark'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'ash-greninja',
+				types: ['water', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/658-Ash.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/658.png'
 	},
@@ -6655,7 +7134,128 @@ const data = [
 		types: ['bug', 'flying'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'meadow pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666.png'
+			},
+			{
+				name: 'archipelago pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Archipelago.png'
+			},
+			{
+				name: 'continental pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Continental.png'
+			},
+			{
+				name: 'elegant pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Elegant.png'
+			},
+			{
+				name: 'garden pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Garden.png'
+			},
+			{
+				name: 'high plains pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-High-Plains.png'
+			},
+			{
+				name: 'icy snow pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Icy-Snow.png'
+			},
+			{
+				name: 'jungle pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Jungle.png'
+			},
+			{
+				name: 'marine pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Marine.png'
+			},
+			{
+				name: 'modern pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Modern.png'
+			},
+			{
+				name: 'monsoon pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Monsoon.png'
+			},
+			{
+				name: 'ocean pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Ocean.png'
+			},
+			{
+				name: 'polar pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Polar.png'
+			},
+			{
+				name: 'river pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-River.png'
+			},
+			{
+				name: 'sandstorm pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Sandstorm.png'
+			},
+			{
+				name: 'savanna pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Savanna.png'
+			},
+			{
+				name: 'sun pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Sun.png'
+			},
+			{
+				name: 'tundra pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Tundra.png'
+			},
+			{
+				name: 'fancy pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Fancy.png'
+			},
+			{
+				name: 'poké ball pattern',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666-Poke-Ball.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/666.png'
 	},
@@ -6755,7 +7355,32 @@ const data = [
 		types: ['normal'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'natural form',
+				types: ['normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/676.png'
+			},
+			{
+				name: 'heart form',
+				types: ['normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/676-Heart.png'
+			},
+			{
+				name: 'star form',
+				types: ['normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/676-Star.png'
+			},
+			{
+				name: 'diamond form',
+				types: ['normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/676-Diamond.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/676.png'
 	},
@@ -6801,11 +7426,24 @@ const data = [
 	},
 	{
 		id: '681',
-		name: 'aegislash-shield',
+		name: 'aegislash',
 		types: ['steel', 'ghost'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'shield forme',
+				types: ['steel', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/681.png'
+			},
+			{
+				name: 'blade forme',
+				types: ['steel', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/681-Blade.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/681.png'
 	},
@@ -7175,7 +7813,26 @@ const data = [
 		types: ['dragon', 'ground'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: '50% forme',
+				types: ['dragon', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/718.png'
+			},
+			{
+				name: '10% forme',
+				types: ['dragon', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/718-10.png'
+			},
+			{
+				name: 'complete forme',
+				types: ['dragon', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/718-Complete.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/718.png'
 	},
@@ -7195,7 +7852,20 @@ const data = [
 		types: ['psychic', 'ghost'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'hoopa confined',
+				types: ['psychic', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/720.png'
+			},
+			{
+				name: 'hoopa unbound',
+				types: ['psychic', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/720-Unbound.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/720.png'
 	},
@@ -7401,11 +8071,36 @@ const data = [
 	},
 	{
 		id: '741',
-		name: 'oricorio-baile',
+		name: 'oricorio',
 		types: ['fire', 'flying'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'baile style',
+				types: ['fire', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/741.png'
+			},
+			{
+				name: 'pom-pom style',
+				types: ['electric', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/741-Pom-Pom.png'
+			},
+			{
+				name: 'pa&lsquo;u style',
+				types: ['psychic', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/741-Pau.png'
+			},
+			{
+				name: 'sensu style',
+				types: ['ghost', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/741-Sensu.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/741.png'
 	},
@@ -7441,11 +8136,30 @@ const data = [
 	},
 	{
 		id: '745',
-		name: 'lycanroc-midday',
+		name: 'lycanroc',
 		types: ['rock'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'midday form',
+				types: ['rock'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/745.png'
+			},
+			{
+				name: 'midnight form',
+				types: ['rock'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/745-Midnight.png'
+			},
+			{
+				name: 'dusk form',
+				types: ['rock'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/745-Dusk.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/745.png'
 	},
@@ -7455,7 +8169,20 @@ const data = [
 		types: ['water'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'solo form',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/746.png'
+			},
+			{
+				name: 'school form',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/746-School.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/746.png'
 	},
@@ -7731,11 +8458,24 @@ const data = [
 	},
 	{
 		id: '774',
-		name: 'minior-red-meteor',
+		name: 'minior',
 		types: ['rock', 'flying'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'meteor form',
+				types: ['rock', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/774.png'
+			},
+			{
+				name: 'core form',
+				types: ['rock', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/774-Red.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/774.png'
 	},
@@ -7995,7 +8735,26 @@ const data = [
 		types: ['psychic'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'dusk mane',
+				types: ['psychic', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/800-Dusk.png'
+			},
+			{
+				name: 'dawn wings',
+				types: ['psychic', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/800-Dawn.png'
+			},
+			{
+				name: 'ultra necrozma',
+				types: ['psychic', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/800-Ultra.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/800.png'
 	},
@@ -8085,7 +8844,14 @@ const data = [
 		types: ['steel'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax melmetal',
+				types: ['steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/809-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/809.png'
 	},
@@ -8115,7 +8881,14 @@ const data = [
 		types: ['grass'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax rillaboom',
+				types: ['grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/812-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/812.png'
 	},
@@ -8145,7 +8918,14 @@ const data = [
 		types: ['fire'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax cinderace',
+				types: ['fire'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/815-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/815.png'
 	},
@@ -8175,7 +8955,14 @@ const data = [
 		types: ['water'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax inteleon',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/818-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/818.png'
 	},
@@ -8225,7 +9012,14 @@ const data = [
 		types: ['flying', 'steel'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax corviknight',
+				types: ['flying', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/823-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/823.png'
 	},
@@ -8255,7 +9049,14 @@ const data = [
 		types: ['bug', 'psychic'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax orbeetle',
+				types: ['bug', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/826-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/826.png'
 	},
@@ -8335,7 +9136,14 @@ const data = [
 		types: ['water', 'rock'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax drednaw',
+				types: ['water', 'rock'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/834-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/834.png'
 	},
@@ -8385,7 +9193,14 @@ const data = [
 		types: ['rock', 'fire'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax coalossal',
+				types: ['rock', 'fire'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/839-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/839.png'
 	},
@@ -8405,7 +9220,14 @@ const data = [
 		types: ['grass', 'dragon'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax flapple',
+				types: ['grass', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/841-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/841.png'
 	},
@@ -8415,7 +9237,14 @@ const data = [
 		types: ['grass', 'dragon'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax appletun',
+				types: ['grass', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/842-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/842.png'
 	},
@@ -8435,7 +9264,14 @@ const data = [
 		types: ['ground'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax sandaconda',
+				types: ['ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/844-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/844.png'
 	},
@@ -8481,11 +9317,30 @@ const data = [
 	},
 	{
 		id: '849',
-		name: 'toxtricity-amped',
+		name: 'toxtricity',
 		types: ['electric', 'poison'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'amped form',
+				types: ['electric', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/849.png'
+			},
+			{
+				name: 'low key form',
+				types: ['electric', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/849-Low-Key.png'
+			},
+			{
+				name: 'gigantamax toxtricity',
+				types: ['electric', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/849-Amped-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/849.png'
 	},
@@ -8505,7 +9360,14 @@ const data = [
 		types: ['fire', 'bug'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax centiskorch',
+				types: ['fire', 'bug'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/851-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/851.png'
 	},
@@ -8575,7 +9437,14 @@ const data = [
 		types: ['psychic', 'fairy'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax hatterene',
+				types: ['psychic', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/858-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/858.png'
 	},
@@ -8605,7 +9474,14 @@ const data = [
 		types: ['dark', 'fairy'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax grimmsnarl',
+				types: ['dark', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/861-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/861.png'
 	},
@@ -8685,7 +9561,14 @@ const data = [
 		types: ['fairy'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax alcremie',
+				types: ['fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/869-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/869.png'
 	},
@@ -8741,11 +9624,24 @@ const data = [
 	},
 	{
 		id: '875',
-		name: 'eiscue-ice',
+		name: 'eiscue',
 		types: ['ice'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'ice face',
+				types: ['ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/875.png'
+			},
+			{
+				name: 'noice face',
+				types: ['ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/875-Noice.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/875.png'
 	},
@@ -8761,11 +9657,24 @@ const data = [
 	},
 	{
 		id: '877',
-		name: 'morpeko-full-belly',
+		name: 'morpeko',
 		types: ['electric', 'dark'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'full belly mode',
+				types: ['electric', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/877.png'
+			},
+			{
+				name: 'hangry mode',
+				types: ['electric', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/877-Hangry.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/877.png'
 	},
@@ -8785,7 +9694,14 @@ const data = [
 		types: ['steel'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax copperajah',
+				types: ['steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/879-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/879.png'
 	},
@@ -8835,7 +9751,14 @@ const data = [
 		types: ['steel', 'dragon'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'gigantamax duraludon',
+				types: ['steel', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/884-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/884.png'
 	},
@@ -8875,7 +9798,20 @@ const data = [
 		types: ['fairy'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'hero of many battles',
+				types: ['fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/888.png'
+			},
+			{
+				name: 'crowned sword',
+				types: ['fairy', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/888-Crowned.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/888.png'
 	},
@@ -8885,7 +9821,20 @@ const data = [
 		types: ['fighting'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'hero of many battles',
+				types: ['fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/889.png'
+			},
+			{
+				name: 'crowned shield',
+				types: ['fighting', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/889-Crowned.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/889.png'
 	},
@@ -8911,11 +9860,36 @@ const data = [
 	},
 	{
 		id: '892',
-		name: 'urshifu-single-strike',
+		name: 'urshifu',
 		types: ['fighting', 'dark'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'single strike style',
+				types: ['fighting', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/892.png'
+			},
+			{
+				name: 'rapid strike style',
+				types: ['fighting', 'water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/892-Rapid-Strike.png'
+			},
+			{
+				name: 'gigantamax urshifu (single strike style)',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/892-Single-Strike-Gmax.png'
+			},
+			{
+				name: 'gigantamax urshifu (rapid strike style)',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/892-Rapid-Strike-Gmax.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/892.png'
 	},
@@ -8975,7 +9949,20 @@ const data = [
 		types: ['psychic', 'grass'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'ice rider calyrex',
+				types: ['psychic', 'ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/898-Ice.png'
+			},
+			{
+				name: 'shadow rider calyrex',
+				types: ['psychic', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/898-Shadow.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/898.png'
 	},
@@ -9041,11 +10028,24 @@ const data = [
 	},
 	{
 		id: '905',
-		name: 'enamorus-incarnate',
+		name: 'enamorus',
 		types: ['fairy', 'flying'],
 		mega: [],
 		variant: [],
-		forms: [],
+		forms: [
+			{
+				name: 'incarnate forme',
+				types: ['fairy', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/905.png'
+			},
+			{
+				name: 'therian forme',
+				types: ['fairy', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/905-Therian.png'
+			}
+		],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/905.png'
 	}
