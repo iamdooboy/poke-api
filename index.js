@@ -1,11 +1,12 @@
 import cors from 'cors'
 import express from 'express'
 import { readFile } from 'fs/promises'
-
+import * as dotenv from 'dotenv'
+dotenv.config()
 const data = JSON.parse(await readFile('./data.json'))
 
 const app = express()
-const port = 8080
+const PORT = process.env.PORT || 5000
 
 app.use(cors())
 app.use(express.json())
@@ -48,4 +49,4 @@ app.get('/api/gen/:id', (req, res) => {
 	res.status(404).send('Generation not found')
 })
 
-app.listen(port)
+app.listen(PORT)
