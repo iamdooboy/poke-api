@@ -23,7 +23,14 @@ const data = [
 		id: '003',
 		name: 'venusaur',
 		types: ['grass', 'poison'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega venusaur',
+				types: ['grass', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/003-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [
 			{
@@ -60,7 +67,20 @@ const data = [
 		id: '006',
 		name: 'charizard',
 		types: ['fire', 'flying'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega charizard x',
+				types: ['fire', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/006-Mega-X.png'
+			},
+			{
+				name: 'mega charizard y',
+				types: ['fire', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/006-Mega-Y.png'
+			}
+		],
 		variant: [],
 		forms: [
 			{
@@ -97,7 +117,14 @@ const data = [
 		id: '009',
 		name: 'blastoise',
 		types: ['water'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega blastoise',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/009-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [
 			{
@@ -171,7 +198,14 @@ const data = [
 		id: '015',
 		name: 'beedrill',
 		types: ['bug', 'poison'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega beedrill',
+				types: ['bug', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/015-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -201,7 +235,14 @@ const data = [
 		id: '018',
 		name: 'pidgeot',
 		types: ['normal', 'flying'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega pidgeot',
+				types: ['normal', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/018-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -212,7 +253,14 @@ const data = [
 		name: 'rattata',
 		types: ['normal'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['dark', 'normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/019-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/019.png'
@@ -222,7 +270,14 @@ const data = [
 		name: 'raticate',
 		types: ['normal'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['dark', 'normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/020-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/020.png'
@@ -289,7 +344,14 @@ const data = [
 		name: 'raichu',
 		types: ['electric'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['electric', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/026-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/026.png'
@@ -299,7 +361,14 @@ const data = [
 		name: 'sandshrew',
 		types: ['ground'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['ice', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/027-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/027.png'
@@ -309,7 +378,14 @@ const data = [
 		name: 'sandslash',
 		types: ['ground'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['ice', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/028-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/028.png'
@@ -399,7 +475,14 @@ const data = [
 		name: 'vulpix',
 		types: ['fire'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/037-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/037.png'
@@ -409,7 +492,14 @@ const data = [
 		name: 'ninetales',
 		types: ['fire'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['ice', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/038-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/038.png'
@@ -529,7 +619,14 @@ const data = [
 		name: 'diglett',
 		types: ['ground'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['ground', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/050-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/050.png'
@@ -539,7 +636,14 @@ const data = [
 		name: 'dugtrio',
 		types: ['ground'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['ground', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/051-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/051.png'
@@ -549,7 +653,20 @@ const data = [
 		name: 'meowth',
 		types: ['normal'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/052-Alola.png'
+			},
+			{
+				name: 'galarian form',
+				types: ['steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/052-Galar.png'
+			}
+		],
 		forms: [
 			{
 				name: 'gigantamax meowth',
@@ -566,7 +683,14 @@ const data = [
 		name: 'persian',
 		types: ['normal'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/053-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/053.png'
@@ -616,7 +740,14 @@ const data = [
 		name: 'growlithe',
 		types: ['fire'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['fire', 'rock'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/058-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/058.png'
@@ -626,7 +757,14 @@ const data = [
 		name: 'arcanine',
 		types: ['fire'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['fire', 'rock'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/059-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/059.png'
@@ -685,7 +823,14 @@ const data = [
 		id: '065',
 		name: 'alakazam',
 		types: ['psychic'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega alakazam',
+				types: ['psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/065-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -783,7 +928,14 @@ const data = [
 		name: 'geodude',
 		types: ['rock', 'ground'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['rock', 'electric'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/074-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/074.png'
@@ -793,7 +945,14 @@ const data = [
 		name: 'graveler',
 		types: ['rock', 'ground'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['rock', 'electric'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/075-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/075.png'
@@ -803,7 +962,14 @@ const data = [
 		name: 'golem',
 		types: ['rock', 'ground'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['rock', 'electric'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/076-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/076.png'
@@ -813,7 +979,14 @@ const data = [
 		name: 'ponyta',
 		types: ['fire'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/077-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/077.png'
@@ -823,7 +996,14 @@ const data = [
 		name: 'rapidash',
 		types: ['fire'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['psychic', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/078-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/078.png'
@@ -833,7 +1013,14 @@ const data = [
 		name: 'slowpoke',
 		types: ['water', 'psychic'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/079-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/079.png'
@@ -842,8 +1029,22 @@ const data = [
 		id: '080',
 		name: 'slowbro',
 		types: ['water', 'psychic'],
-		mega: [],
-		variant: [],
+		mega: [
+			{
+				name: 'mega slowbro',
+				types: ['water', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/080-Mega.png'
+			}
+		],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['poison', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/080-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/080.png'
@@ -873,7 +1074,14 @@ const data = [
 		name: 'farfetchd',
 		types: ['normal', 'flying'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/083-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/083.png'
@@ -923,7 +1131,14 @@ const data = [
 		name: 'grimer',
 		types: ['poison'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['poison', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/088-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/088.png'
@@ -933,7 +1148,14 @@ const data = [
 		name: 'muk',
 		types: ['poison'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['poison', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/089-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/089.png'
@@ -982,7 +1204,14 @@ const data = [
 		id: '094',
 		name: 'gengar',
 		types: ['ghost', 'poison'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega gengar',
+				types: ['ghost', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/094-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [
 			{
@@ -1057,7 +1286,14 @@ const data = [
 		name: 'voltorb',
 		types: ['electric'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['electric', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/100-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/100.png'
@@ -1067,7 +1303,14 @@ const data = [
 		name: 'electrode',
 		types: ['electric'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['electric', 'grass'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/101-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/101.png'
@@ -1087,7 +1330,14 @@ const data = [
 		name: 'exeggutor',
 		types: ['grass', 'psychic'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['grass', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/103-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/103.png'
@@ -1107,7 +1357,14 @@ const data = [
 		name: 'marowak',
 		types: ['ground'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'alolan form',
+				types: ['fire', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/105-Alola.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/105.png'
@@ -1157,7 +1414,14 @@ const data = [
 		name: 'weezing',
 		types: ['poison'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['poison', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/110-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/110.png'
@@ -1206,7 +1470,14 @@ const data = [
 		id: '115',
 		name: 'kangaskhan',
 		types: ['normal'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega kangaskhan',
+				types: ['normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/115-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -1277,7 +1548,14 @@ const data = [
 		name: 'mr-mime',
 		types: ['psychic', 'fairy'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['ice', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/122-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/122.png'
@@ -1326,7 +1604,14 @@ const data = [
 		id: '127',
 		name: 'pinsir',
 		types: ['bug'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega pinsir',
+				types: ['bug', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/127-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -1356,7 +1641,14 @@ const data = [
 		id: '130',
 		name: 'gyarados',
 		types: ['water', 'flying'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega gyarados',
+				types: ['water', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/130-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -1490,7 +1782,14 @@ const data = [
 		id: '142',
 		name: 'aerodactyl',
 		types: ['rock', 'flying'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega aerodactyl',
+				types: ['rock', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/142-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -1518,7 +1817,14 @@ const data = [
 		name: 'articuno',
 		types: ['ice', 'flying'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['psychic', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/144-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/144.png'
@@ -1528,7 +1834,14 @@ const data = [
 		name: 'zapdos',
 		types: ['electric', 'flying'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['fighting', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/145-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/145.png'
@@ -1538,7 +1851,14 @@ const data = [
 		name: 'moltres',
 		types: ['fire', 'flying'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['dark', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/146-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/146.png'
@@ -1577,7 +1897,20 @@ const data = [
 		id: '150',
 		name: 'mewtwo',
 		types: ['psychic'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega mewtwo x',
+				types: ['psychic', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/150-Mega-X.png'
+			},
+			{
+				name: 'mega mewtwo y',
+				types: ['psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/150-Mega-Y.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -1648,7 +1981,14 @@ const data = [
 		name: 'typhlosion',
 		types: ['fire'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['fire', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/157-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/157.png'
@@ -1887,7 +2227,14 @@ const data = [
 		id: '181',
 		name: 'ampharos',
 		types: ['electric'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega ampharos',
+				types: ['electric', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/181-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -2068,7 +2415,14 @@ const data = [
 		name: 'slowking',
 		types: ['water', 'psychic'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['poison', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/199-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/199.png'
@@ -2157,7 +2511,14 @@ const data = [
 		id: '208',
 		name: 'steelix',
 		types: ['steel', 'ground'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega steelix',
+				types: ['steel', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/208-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -2188,7 +2549,14 @@ const data = [
 		name: 'qwilfish',
 		types: ['water', 'poison'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['dark', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/211-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/211.png'
@@ -2197,7 +2565,14 @@ const data = [
 		id: '212',
 		name: 'scizor',
 		types: ['bug', 'steel'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega scizor',
+				types: ['bug', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/212-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -2217,7 +2592,14 @@ const data = [
 		id: '214',
 		name: 'heracross',
 		types: ['bug', 'fighting'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega heracross',
+				types: ['bug', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/214-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -2228,7 +2610,14 @@ const data = [
 		name: 'sneasel',
 		types: ['dark', 'ice'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['fighting', 'poison'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/215-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/215.png'
@@ -2298,7 +2687,14 @@ const data = [
 		name: 'corsola',
 		types: ['water', 'rock'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/222-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/222.png'
@@ -2367,7 +2763,14 @@ const data = [
 		id: '229',
 		name: 'houndoom',
 		types: ['dark', 'fire'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega houndoom',
+				types: ['dark', 'fire'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/229-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -2557,7 +2960,14 @@ const data = [
 		id: '248',
 		name: 'tyranitar',
 		types: ['rock', 'dark'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega tyranitar',
+				types: ['rock', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/248-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -2617,7 +3027,14 @@ const data = [
 		id: '254',
 		name: 'sceptile',
 		types: ['grass'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega sceptile',
+				types: ['grass', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/254-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -2647,7 +3064,14 @@ const data = [
 		id: '257',
 		name: 'blaziken',
 		types: ['fire', 'fighting'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega blaziken',
+				types: ['fire', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/257-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -2677,7 +3101,14 @@ const data = [
 		id: '260',
 		name: 'swampert',
 		types: ['water', 'ground'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega swampert',
+				types: ['water', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/260-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -2708,7 +3139,14 @@ const data = [
 		name: 'zigzagoon',
 		types: ['normal'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['dark', 'normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/263-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/263.png'
@@ -2718,7 +3156,14 @@ const data = [
 		name: 'linoone',
 		types: ['normal'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['dark', 'normal'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/264-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/264.png'
@@ -2897,7 +3342,14 @@ const data = [
 		id: '282',
 		name: 'gardevoir',
 		types: ['psychic', 'fairy'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega gardevoir',
+				types: ['psychic', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/282-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3097,7 +3549,14 @@ const data = [
 		id: '302',
 		name: 'sableye',
 		types: ['dark', 'ghost'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega sableye',
+				types: ['dark', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/302-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3107,7 +3566,14 @@ const data = [
 		id: '303',
 		name: 'mawile',
 		types: ['steel', 'fairy'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega mawile',
+				types: ['steel', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/303-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3137,7 +3603,14 @@ const data = [
 		id: '306',
 		name: 'aggron',
 		types: ['steel', 'rock'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega aggron',
+				types: ['steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/306-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3157,7 +3630,14 @@ const data = [
 		id: '308',
 		name: 'medicham',
 		types: ['fighting', 'psychic'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega medicham',
+				types: ['fighting', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/308-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3177,7 +3657,14 @@ const data = [
 		id: '310',
 		name: 'manectric',
 		types: ['electric'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega manectric',
+				types: ['electric'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/310-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3267,7 +3754,14 @@ const data = [
 		id: '319',
 		name: 'sharpedo',
 		types: ['water', 'dark'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega sharpedo',
+				types: ['water', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/319-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3307,7 +3801,14 @@ const data = [
 		id: '323',
 		name: 'camerupt',
 		types: ['fire', 'ground'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega camerupt',
+				types: ['fire', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/323-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3417,7 +3918,14 @@ const data = [
 		id: '334',
 		name: 'altaria',
 		types: ['dragon', 'flying'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega altaria',
+				types: ['dragon', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/334-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3636,7 +4144,14 @@ const data = [
 		id: '354',
 		name: 'banette',
 		types: ['ghost'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega banette',
+				types: ['ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/354-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3686,7 +4201,14 @@ const data = [
 		id: '359',
 		name: 'absol',
 		types: ['dark'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega absol',
+				types: ['dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/359-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3716,7 +4238,14 @@ const data = [
 		id: '362',
 		name: 'glalie',
 		types: ['ice'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega glalie',
+				types: ['ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/362-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3826,7 +4355,14 @@ const data = [
 		id: '373',
 		name: 'salamence',
 		types: ['dragon', 'flying'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega salamence',
+				types: ['dragon', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/373-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3856,7 +4392,14 @@ const data = [
 		id: '376',
 		name: 'metagross',
 		types: ['steel', 'psychic'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega metagross',
+				types: ['steel', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/376-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3896,7 +4439,14 @@ const data = [
 		id: '380',
 		name: 'latias',
 		types: ['dragon', 'psychic'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega latias',
+				types: ['dragon', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/380-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3906,7 +4456,14 @@ const data = [
 		id: '381',
 		name: 'latios',
 		types: ['dragon', 'psychic'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega latios',
+				types: ['dragon', 'psychic'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/381-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -3950,7 +4507,14 @@ const data = [
 		id: '384',
 		name: 'rayquaza',
 		types: ['dragon', 'flying'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega rayquaza',
+				types: ['dragon', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/384-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -4490,7 +5054,14 @@ const data = [
 		id: '428',
 		name: 'lopunny',
 		types: ['normal'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega lopunny',
+				types: ['normal', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/428-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -4660,7 +5231,14 @@ const data = [
 		id: '445',
 		name: 'garchomp',
 		types: ['dragon', 'ground'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega garchomp',
+				types: ['dragon', 'ground'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/445-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -4690,7 +5268,14 @@ const data = [
 		id: '448',
 		name: 'lucario',
 		types: ['fighting', 'steel'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega lucario',
+				types: ['fighting', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/448-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -4810,7 +5395,14 @@ const data = [
 		id: '460',
 		name: 'abomasnow',
 		types: ['grass', 'ice'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega abomasnow',
+				types: ['grass', 'ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/460-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -4960,7 +5552,14 @@ const data = [
 		id: '475',
 		name: 'gallade',
 		types: ['psychic', 'fighting'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega lopunny',
+				types: ['psychic', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/475-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -5312,7 +5911,14 @@ const data = [
 		name: 'samurott',
 		types: ['water'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['water', 'dark'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/503-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/503.png'
@@ -5591,7 +6197,14 @@ const data = [
 		id: '531',
 		name: 'audino',
 		types: ['normal'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega audino',
+				types: ['normal', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/531-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -5772,7 +6385,14 @@ const data = [
 		name: 'lilligant',
 		types: ['grass'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['grass', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/549-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/549.png'
@@ -5782,7 +6402,14 @@ const data = [
 		name: 'basculin',
 		types: ['water'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'white-striped form',
+				types: ['water'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/550-White-Striped.png'
+			}
+		],
 		forms: [
 			{
 				name: 'red-striped form',
@@ -5795,12 +6422,6 @@ const data = [
 				types: ['water'],
 				image:
 					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/550-Blue-Striped.png'
-			},
-			{
-				name: 'white-striped form',
-				types: ['water'],
-				image:
-					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/550-White-Striped.png'
 			}
 		],
 		image:
@@ -5841,7 +6462,14 @@ const data = [
 		name: 'darumaka',
 		types: ['fire'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['ice'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/554-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/554.png'
@@ -5851,24 +6479,26 @@ const data = [
 		name: 'darmanitan',
 		types: ['fire'],
 		mega: [],
-		variant: {
-			name: 'galarian form',
-			types: ['ice'],
-			forms: [
-				{
-					name: 'standard mode',
-					types: ['ice'],
-					image:
-						'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/555-Galar-Standard.png'
-				},
-				{
-					name: 'zen mode',
-					types: ['ice', 'fire'],
-					image:
-						'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/555-Galar-Zen.png'
-				}
-			]
-		},
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['ice'],
+				forms: [
+					{
+						name: 'standard mode',
+						types: ['ice'],
+						image:
+							'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/555-Galar-Standard.png'
+					},
+					{
+						name: 'zen mode',
+						types: ['ice', 'fire'],
+						image:
+							'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/555-Galar-Zen.png'
+					}
+				]
+			}
+		],
 		forms: [
 			{
 				name: 'standard mode',
@@ -5951,7 +6581,14 @@ const data = [
 		name: 'yamask',
 		types: ['ghost'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['ground', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/562-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/562.png'
@@ -6038,7 +6675,14 @@ const data = [
 		name: 'zorua',
 		types: ['dark'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['normal', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/570-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/570.png'
@@ -6048,7 +6692,14 @@ const data = [
 		name: 'zoroark',
 		types: ['dark'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['normal', 'ghost'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/571-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/571.png'
@@ -6568,7 +7219,14 @@ const data = [
 		name: 'stunfisk',
 		types: ['ground', 'electric'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'galarian form',
+				types: ['ground', 'steel'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/618-Galar.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/618.png'
@@ -6668,7 +7326,14 @@ const data = [
 		name: 'braviary',
 		types: ['normal', 'flying'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['psychic', 'flying'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/628-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/628.png'
@@ -7682,7 +8347,14 @@ const data = [
 		name: 'sliggoo',
 		types: ['dragon'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['steel', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/705-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/705.png'
@@ -7692,7 +8364,14 @@ const data = [
 		name: 'goodra',
 		types: ['dragon'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['steel', 'dragon'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/706-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/706.png'
@@ -7762,7 +8441,14 @@ const data = [
 		name: 'avalugg',
 		types: ['ice'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['ice', 'rock'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/713-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/713.png'
@@ -7840,7 +8526,14 @@ const data = [
 		id: '719',
 		name: 'diancie',
 		types: ['rock', 'fairy'],
-		mega: [],
+		mega: [
+			{
+				name: 'mega diancie',
+				types: ['rock', 'fairy'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/719-Mega.png'
+			}
+		],
 		variant: [],
 		forms: [],
 		image:
@@ -7904,7 +8597,14 @@ const data = [
 		name: 'decidueye',
 		types: ['grass', 'ghost'],
 		mega: [],
-		variant: [],
+		variant: [
+			{
+				name: 'hisuian form',
+				types: ['grass', 'fighting'],
+				image:
+					'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/724-Hisui.png'
+			}
+		],
 		forms: [],
 		image:
 			'https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/724.png'
