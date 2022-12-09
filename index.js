@@ -1,10 +1,14 @@
-import data from './data.js'
 import cors from 'cors'
 import express from 'express'
+import { readFile } from 'fs/promises'
+
+const data = JSON.parse(await readFile('./data.json'))
+
 const app = express()
 const port = 8080
 
 app.use(cors())
+app.use(express.json())
 
 app.get('/api/pokemon', (req, res) => {
 	res.status(200).send(data)
