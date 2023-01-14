@@ -10,23 +10,12 @@ const PORT = process.env.PORT || 5000
 
 const corsOptions = {
 	origin: '*',
-	credentials: true, //access-control-allow-credentials:true
+	credentials: true,
 	optionSuccessStatus: 200
 }
 
 app.use(cors(corsOptions))
 app.use(express.json())
-
-// router.get('/', (req, res) => {
-// 	res.setHeader('Access-Control-Allow-Origin', '*')
-// 	res.setHeader('Access-Control-Allow-Credentials', 'true')
-// 	res.setHeader('Access-Control-Max-Age', '1800')
-// 	res.setHeader('Access-Control-Allow-Headers', 'content-type')
-// 	res.setHeader(
-// 		'Access-Control-Allow-Methods',
-// 		'PUT, POST, GET, DELETE, PATCH, OPTIONS'
-// 	)
-// })
 
 app.get('/api/pokemon', (req, res) => {
 	res.status(200).send(data)
