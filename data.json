@@ -1572,7 +1572,23 @@
 		"name": "tauros",
 		"types": ["normal"],
 		"mega": [],
-		"variant": [],
+		"variant": [
+			{
+				"name": "paldea form (combat breed)",
+				"types": ["fighting"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0128-paldea-combat-breed.png"
+			},
+			{
+				"name": "paldea form (blaze breed)",
+				"types": ["fighting", "fire"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0128-paldea-blaze-breed.png"
+			},
+			{
+				"name": "paldea form (aqua breed)",
+				"types": ["fighting", "water"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0128-paldea-aqua-breed.png"
+			}
+		],
 		"forms": [],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0128.png",
 		"default": ""
@@ -2303,7 +2319,13 @@
 		"name": "wooper",
 		"types": ["water", "ground"],
 		"mega": [],
-		"variant": [],
+		"variant": [
+			{
+				"name": "paldea form",
+				"types": ["poison", "ground"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0194-paldea.png"
+			}
+		],
 		"forms": [],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0194.png",
 		"default": ""
@@ -4442,7 +4464,7 @@
 			{
 				"name": "normal forme",
 				"types": ["psychic"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/386.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0386.png"
 			},
 			{
 				"name": "attack forme",
@@ -4749,7 +4771,7 @@
 			{
 				"name": "plant cloak",
 				"types": ["bug", "grass"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/413.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0413.png"
 			},
 			{
 				"name": "sandy cloak",
@@ -4845,7 +4867,7 @@
 			{
 				"name": "overcast form",
 				"types": ["grass"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/421.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0421.png"
 			},
 			{
 				"name": "sunshine form",
@@ -5606,7 +5628,7 @@
 			{
 				"name": "altered forme",
 				"types": ["ghost", "dragon"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/487.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0487.png"
 			},
 			{
 				"name": "origin forme",
@@ -5667,7 +5689,7 @@
 			{
 				"name": "land forme",
 				"types": ["grass", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/492.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0492.png"
 			},
 			{
 				"name": "sky forme",
@@ -5974,12 +5996,12 @@
 			{
 				"name": "male",
 				"types": ["normal", "flying"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/521.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0521.png"
 			},
 			{
 				"name": "female",
 				"types": ["normal", "flying"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/521_f2.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0521-female.png"
 			}
 		],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0521.png",
@@ -6377,7 +6399,7 @@
 			{
 				"name": "standard mode",
 				"types": ["fire"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/555.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0555.png"
 			},
 			{
 				"name": "zen mode",
@@ -6712,7 +6734,7 @@
 			{
 				"name": "spring form",
 				"types": ["normal", "grass"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/585.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0585.png"
 			},
 			{
 				"name": "summer form",
@@ -6743,7 +6765,7 @@
 			{
 				"name": "spring form",
 				"types": ["normal", "grass"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/586.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0586.png"
 			},
 			{
 				"name": "summer form",
@@ -6824,12 +6846,12 @@
 			{
 				"name": "male",
 				"types": ["water", "ghost"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/592.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0592.png"
 			},
 			{
 				"name": "female",
 				"types": ["water", "ghost"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/592_f2.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0592-female.png"
 			}
 		],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0592.png",
@@ -6845,12 +6867,12 @@
 			{
 				"name": "male",
 				"types": ["water", "ghost"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/593.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0593.png"
 			},
 			{
 				"name": "female",
 				"types": ["water", "ghost"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/593_f2.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0593-female.png"
 			}
 		],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0593.png",
@@ -7348,7 +7370,7 @@
 			{
 				"name": "incarnate forme",
 				"types": ["flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/641.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0641.png"
 			},
 			{
 				"name": "therian forme",
@@ -7369,7 +7391,7 @@
 			{
 				"name": "incarnate forme",
 				"types": ["electric", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/642.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0642.png"
 			},
 			{
 				"name": "therian forme",
@@ -7410,7 +7432,7 @@
 			{
 				"name": "incarnate forme",
 				"types": ["ground", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/645.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0645.png"
 			},
 			{
 				"name": "therian forme",
@@ -7452,7 +7474,7 @@
 			{
 				"name": "ordinary form",
 				"types": ["water", "fighting"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/647.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0647.png"
 			},
 			{
 				"name": "resolute form",
@@ -7473,7 +7495,7 @@
 			{
 				"name": "aria forme",
 				"types": ["normal", "psychic"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/648.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0648.png"
 			},
 			{
 				"name": "pirouette forme",
@@ -7670,7 +7692,7 @@
 			{
 				"name": "meadow pattern",
 				"types": ["bug", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/666.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0666.png"
 			},
 			{
 				"name": "archipelago pattern",
@@ -7791,12 +7813,12 @@
 			{
 				"name": "male",
 				"types": ["fire", "normal"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/668.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0668.png"
 			},
 			{
 				"name": "female",
 				"types": ["fire", "normal"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/668_f2.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0668-female.png"
 			}
 		],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0668.png",
@@ -7882,7 +7904,7 @@
 			{
 				"name": "natural form",
 				"types": ["normal"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/676.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0676.png"
 			},
 			{
 				"name": "heart form",
@@ -7923,12 +7945,12 @@
 			{
 				"name": "male",
 				"types": ["psychic"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/678.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0678.png"
 			},
 			{
 				"name": "female",
 				"types": ["psychic"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/678_f2.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0678-female.png"
 			}
 		],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0678.png",
@@ -7964,7 +7986,7 @@
 			{
 				"name": "shield forme",
 				"types": ["steel", "ghost"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/681.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0681.png"
 			},
 			{
 				"name": "blade forme",
@@ -8363,7 +8385,7 @@
 			{
 				"name": "50% forme",
 				"types": ["dragon", "ground"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/718.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0718.png"
 			},
 			{
 				"name": "10% forme",
@@ -8405,7 +8427,7 @@
 			{
 				"name": "hoopa confined",
 				"types": ["psychic", "ghost"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/720.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0720.png"
 			},
 			{
 				"name": "hoopa unbound",
@@ -8632,7 +8654,7 @@
 			{
 				"name": "baile style",
 				"types": ["fire", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/741.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0741.png"
 			},
 			{
 				"name": "pom-pom style",
@@ -8693,7 +8715,7 @@
 			{
 				"name": "midday form",
 				"types": ["rock"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/745.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0745.png"
 			},
 			{
 				"name": "midnight form",
@@ -8719,7 +8741,7 @@
 			{
 				"name": "solo form",
 				"types": ["water"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/746.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0746.png"
 			},
 			{
 				"name": "school form",
@@ -9010,7 +9032,7 @@
 			{
 				"name": "meteor form",
 				"types": ["rock", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/774.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0774.png"
 			},
 			{
 				"name": "core form",
@@ -9853,7 +9875,7 @@
 			{
 				"name": "amped form",
 				"types": ["electric", "poison"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/849.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0849.png"
 			},
 			{
 				"name": "low key form",
@@ -10153,7 +10175,7 @@
 			{
 				"name": "ice face",
 				"types": ["ice"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/875.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0875.png"
 			},
 			{
 				"name": "noice face",
@@ -10174,7 +10196,7 @@
 			{
 				"name": "male",
 				"types": ["psychic", "normal"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/876.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0876.png"
 			},
 			{
 				"name": "female",
@@ -10195,7 +10217,7 @@
 			{
 				"name": "full belly mode",
 				"types": ["electric", "dark"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/877.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0877.png"
 			},
 			{
 				"name": "hangry mode",
@@ -10328,7 +10350,7 @@
 			{
 				"name": "hero of many battles",
 				"types": ["fairy"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/888.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0888.png"
 			},
 			{
 				"name": "crowned sword",
@@ -10349,7 +10371,7 @@
 			{
 				"name": "hero of many battles",
 				"types": ["fighting"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/889.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0889.png"
 			},
 			{
 				"name": "crowned shield",
@@ -10390,7 +10412,7 @@
 			{
 				"name": "single strike style",
 				"types": ["fighting", "dark"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/892.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0892.png"
 			},
 			{
 				"name": "rapid strike style",
@@ -10522,12 +10544,12 @@
 			{
 				"name": "male",
 				"types": ["water", "ghost"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/902.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0902.png"
 			},
 			{
 				"name": "female",
 				"types": ["water", "ghost"],
-				"image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/902_f2.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0902-female.png"
 			}
 		],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0902.png",
@@ -10563,7 +10585,7 @@
 			{
 				"name": "incarnate forme",
 				"types": ["fairy", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/905.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0905.png"
 			},
 			{
 				"name": "therian forme",
@@ -10573,5 +10595,1127 @@
 		],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0905.png",
 		"default": "incarnate forme"
+	},
+	{
+		"id": "0906",
+		"name": "sprigatito",
+		"types": ["grass"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0906.png",
+		"default": ""
+	},
+	{
+		"id": "0907",
+		"name": "floragato",
+		"types": ["grass"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0907.png",
+		"default": ""
+	},
+	{
+		"id": "0908",
+		"name": "meowscarada",
+		"types": ["grass", "dark"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0908.png",
+		"default": ""
+	},
+	{
+		"id": "0909",
+		"name": "fuecoco",
+		"types": ["fire"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0909.png",
+		"default": ""
+	},
+	{
+		"id": "0910",
+		"name": "crocalor",
+		"types": ["fire"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0910.png",
+		"default": ""
+	},
+	{
+		"id": "0911",
+		"name": "skeledirge",
+		"types": ["fire", "ghost"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0911.png",
+		"default": ""
+	},
+	{
+		"id": "0912",
+		"name": "quaxly",
+		"types": ["water"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0912.png",
+		"default": ""
+	},
+	{
+		"id": "0913",
+		"name": "quaxwell",
+		"types": ["water"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0913.png",
+		"default": ""
+	},
+	{
+		"id": "0914",
+		"name": "quaquaval",
+		"types": ["water", "fighting"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0914.png",
+		"default": ""
+	},
+	{
+		"id": "0915",
+		"name": "lechonk",
+		"types": ["normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0915.png",
+		"default": ""
+	},
+	{
+		"id": "0916",
+		"name": "oinkologne",
+		"types": ["normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [
+			{
+				"name": "male",
+				"types": ["normal"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0916.png"
+			},
+			{
+				"name": "female",
+				"types": ["normal"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0916-female.png"
+			}
+		],
+		"default": "male",
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0916.png"
+	},
+	{
+		"id": "0917",
+		"name": "tarountula",
+		"types": ["bug"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0917.png",
+		"default": ""
+	},
+	{
+		"id": "0918",
+		"name": "spidops",
+		"types": ["bug"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0918.png",
+		"default": ""
+	},
+	{
+		"id": "0919",
+		"name": "nymble",
+		"types": ["bug"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0919.png",
+		"default": ""
+	},
+	{
+		"id": "0920",
+		"name": "lokix",
+		"types": ["bug", "dark"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0920.png",
+		"default": ""
+	},
+	{
+		"id": "0921",
+		"name": "pawmi",
+		"types": ["electric"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0921.png",
+		"default": ""
+	},
+	{
+		"id": "0922",
+		"name": "pawmo",
+		"types": ["electric", "fighting"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0922.png",
+		"default": ""
+	},
+	{
+		"id": "0923",
+		"name": "pawmot",
+		"types": ["electric", "fighting"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0923.png",
+		"default": ""
+	},
+	{
+		"id": "0924",
+		"name": "tandemaus",
+		"types": ["normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0924.png",
+		"default": ""
+	},
+	{
+		"id": "0925",
+		"name": "maushold",
+		"types": ["normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [
+			{
+				"name": "family of four",
+				"types": ["normal"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0925.png"
+			},
+			{
+				"name": "family of three",
+				"types": ["normal"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0925-family-of-three.png"
+			}
+		],
+		"default": "family of four",
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0925.png"
+	},
+	{
+		"id": "0926",
+		"name": "fidough",
+		"types": ["fairy"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0926.png",
+		"default": ""
+	},
+	{
+		"id": "0927",
+		"name": "dachsbun",
+		"types": ["fairy"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0927.png",
+		"default": ""
+	},
+	{
+		"id": "0928",
+		"name": "smoliv",
+		"types": ["grass", "normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0928.png",
+		"default": ""
+	},
+	{
+		"id": "0929",
+		"name": "dolliv",
+		"types": ["grass", "normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0929.png",
+		"default": ""
+	},
+	{
+		"id": "0930",
+		"name": "arboliva",
+		"types": ["grass", "normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0930.png",
+		"default": ""
+	},
+	{
+		"id": "0931",
+		"name": "squawkabilly",
+		"types": ["normal", "flying"],
+		"mega": [],
+		"variant": [],
+		"forms": [
+			{
+				"name": "green plumage",
+				"types": ["normal", "flying"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931.png"
+			},
+			{
+				"name": "blue form",
+				"types": ["normal", "flying"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931-blue-plumage.png"
+			},
+			{
+				"name": "yellow plumage",
+				"types": ["normal", "flying"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931-yellow-plumage.png"
+			},
+			{
+				"name": "white form",
+				"types": ["normal", "flying"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931-white-plumage.png"
+			}
+		],
+		"default": "green plumage",
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931.png"
+	},
+	{
+		"id": "0932",
+		"name": "nacli",
+		"types": ["rock"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0932.png",
+		"default": ""
+	},
+	{
+		"id": "0933",
+		"name": "naclstack",
+		"types": ["rock"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0933.png",
+		"default": ""
+	},
+	{
+		"id": "0934",
+		"name": "garganacl",
+		"types": ["rock"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0934.png",
+		"default": ""
+	},
+	{
+		"id": "0935",
+		"name": "charcadet",
+		"types": ["fire"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0935.png",
+		"default": ""
+	},
+	{
+		"id": "0936",
+		"name": "armarouge",
+		"types": ["fire", "psychic"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0936.png",
+		"default": ""
+	},
+	{
+		"id": "0937",
+		"name": "ceruledge",
+		"types": ["fire", "ghost"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0937.png",
+		"default": ""
+	},
+	{
+		"id": "0938",
+		"name": "tadbulb",
+		"types": ["electric"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0938.png",
+		"default": ""
+	},
+	{
+		"id": "0939",
+		"name": "bellibolt",
+		"types": ["electric"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0939.png",
+		"default": ""
+	},
+	{
+		"id": "0940",
+		"name": "wattrel",
+		"types": ["electric", "flying"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0940.png",
+		"default": ""
+	},
+	{
+		"id": "0941",
+		"name": "kilowattrel",
+		"types": ["electric", "flying"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0941.png",
+		"default": ""
+	},
+	{
+		"id": "0942",
+		"name": "maschiff",
+		"types": ["dark"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0942.png",
+		"default": ""
+	},
+	{
+		"id": "0943",
+		"name": "mabosstiff",
+		"types": ["dark"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0943.png",
+		"default": ""
+	},
+	{
+		"id": "0944",
+		"name": "shroodle",
+		"types": ["poison", "normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0944.png",
+		"default": ""
+	},
+	{
+		"id": "0945",
+		"name": "grafaiai",
+		"types": ["poison", "normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0945.png",
+		"default": ""
+	},
+	{
+		"id": "0946",
+		"name": "bramblin",
+		"types": ["grass", "ghost"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0946.png",
+		"default": ""
+	},
+	{
+		"id": "0947",
+		"name": "brambleghast",
+		"types": ["grass", "ghost"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0947.png",
+		"default": ""
+	},
+	{
+		"id": "0948",
+		"name": "toedscool",
+		"types": ["ground", "grass"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0948.png",
+		"default": ""
+	},
+	{
+		"id": "0949",
+		"name": "toedscruel",
+		"types": ["ground", "grass"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0949.png",
+		"default": ""
+	},
+	{
+		"id": "0950",
+		"name": "klawf",
+		"types": ["rock"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0950.png",
+		"default": ""
+	},
+	{
+		"id": "0951",
+		"name": "capsakid",
+		"types": ["grass"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0951.png",
+		"default": ""
+	},
+	{
+		"id": "0952",
+		"name": "scovillain",
+		"types": ["grass", "fire"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0952.png",
+		"default": ""
+	},
+	{
+		"id": "0953",
+		"name": "rellor",
+		"types": ["bug"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0953.png",
+		"default": ""
+	},
+	{
+		"id": "0954",
+		"name": "rabsca",
+		"types": ["bug", "psychic"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0954.png",
+		"default": ""
+	},
+	{
+		"id": "0955",
+		"name": "flittle",
+		"types": ["psychic"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0955.png",
+		"default": ""
+	},
+	{
+		"id": "0956",
+		"name": "espathra",
+		"types": ["psychic"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0956.png",
+		"default": ""
+	},
+	{
+		"id": "0957",
+		"name": "tinkatink",
+		"types": ["fairy", "steel"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0957.png",
+		"default": ""
+	},
+	{
+		"id": "0958",
+		"name": "tinkatuff",
+		"types": ["fairy", "steel"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0958.png",
+		"default": ""
+	},
+	{
+		"id": "0959",
+		"name": "tinkaton",
+		"types": ["fairy", "steel"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0959.png",
+		"default": ""
+	},
+	{
+		"id": "0960",
+		"name": "wiglett",
+		"types": ["water"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0960.png",
+		"default": ""
+	},
+	{
+		"id": "0961",
+		"name": "wugtrio",
+		"types": ["water"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0961.png",
+		"default": ""
+	},
+	{
+		"id": "0962",
+		"name": "bombirdier",
+		"types": ["flying", "dark"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0962.png",
+		"default": ""
+	},
+	{
+		"id": "0963",
+		"name": "finizen",
+		"types": ["water"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0963.png",
+		"default": ""
+	},
+	{
+		"id": "0964",
+		"name": "palafin",
+		"types": ["water"],
+		"mega": [],
+		"variant": [],
+		"forms": [
+			{
+				"name": "zero form",
+				"types": ["water"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0964.png"
+			},
+			{
+				"name": "hero form",
+				"types": ["water"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0964-hero.png"
+			}
+		],
+		"default": "zero form",
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0964.png"
+	},
+	{
+		"id": "0965",
+		"name": "varoom",
+		"types": ["steel", "poison"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0965.png",
+		"default": ""
+	},
+	{
+		"id": "0966",
+		"name": "revavroom",
+		"types": ["steel", "poison"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0966.png",
+		"default": ""
+	},
+	{
+		"id": "0967",
+		"name": "cyclizar",
+		"types": ["dragon", "normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0967.png",
+		"default": ""
+	},
+	{
+		"id": "0968",
+		"name": "orthworm",
+		"types": ["steel"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0968.png",
+		"default": ""
+	},
+	{
+		"id": "0969",
+		"name": "glimmet",
+		"types": ["rock", "poison"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0969.png",
+		"default": ""
+	},
+	{
+		"id": "0970",
+		"name": "glimmora",
+		"types": ["rock", "poison"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0970.png",
+		"default": ""
+	},
+	{
+		"id": "0971",
+		"name": "greavard",
+		"types": ["ghost"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0971.png",
+		"default": ""
+	},
+	{
+		"id": "0972",
+		"name": "houndstone",
+		"types": ["ghost"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0972.png",
+		"default": ""
+	},
+	{
+		"id": "0973",
+		"name": "flamigo",
+		"types": ["flying", "fighting"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0973.png",
+		"default": ""
+	},
+	{
+		"id": "0974",
+		"name": "cetoddle",
+		"types": ["ice"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0974.png",
+		"default": ""
+	},
+	{
+		"id": "0975",
+		"name": "cetitan",
+		"types": ["ice"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0975.png",
+		"default": ""
+	},
+	{
+		"id": "0976",
+		"name": "veluza",
+		"types": ["water", "psychic"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0976.png",
+		"default": ""
+	},
+	{
+		"id": "0977",
+		"name": "dondozo",
+		"types": ["water"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0977.png",
+		"default": ""
+	},
+	{
+		"id": "0978",
+		"name": "tatsugiri",
+		"types": ["dragon", "water"],
+		"mega": [],
+		"variant": [],
+		"forms": [
+			{
+				"name": "curly form",
+				"types": ["dragon", "water"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0978.png"
+			},
+			{
+				"name": "droopy form",
+				"types": ["dragon", "water"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0978-droopy.png"
+			},
+			{
+				"name": "stretchy form",
+				"types": ["dragon", "water"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0978-stretchy.png"
+			}
+		],
+		"default": "curly form",
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0978.png"
+	},
+	{
+		"id": "0979",
+		"name": "annihilape",
+		"types": ["fighting", "ghost"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0979.png",
+		"default": ""
+	},
+	{
+		"id": "0980",
+		"name": "clodsire",
+		"types": ["poison", "ground"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0980.png",
+		"default": ""
+	},
+	{
+		"id": "0981",
+		"name": "farigiraf",
+		"types": ["normal", "psychic"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0981.png",
+		"default": ""
+	},
+	{
+		"id": "0982",
+		"name": "dudunsparce",
+		"types": ["normal"],
+		"mega": [],
+		"variant": [],
+		"forms": [
+			{
+				"name": "two-segment form",
+				"types": ["normal"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0982.png"
+			},
+			{
+				"name": "three-segment form",
+				"types": ["normal"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0982-three-segment.png"
+			}
+		],
+		"default": "two-segment form",
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0982.png"
+	},
+	{
+		"id": "0983",
+		"name": "kingambit",
+		"types": ["dark", "steel"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0983.png",
+		"default": ""
+	},
+	{
+		"id": "0984",
+		"name": "great tusk",
+		"types": ["ground", "fighting"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0984.png",
+		"default": ""
+	},
+	{
+		"id": "0985",
+		"name": "scream tail",
+		"types": ["fairy", "psychic"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0985.png",
+		"default": ""
+	},
+	{
+		"id": "0986",
+		"name": "brute bonnet",
+		"types": ["grass", "dark"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0986.png",
+		"default": ""
+	},
+	{
+		"id": "0987",
+		"name": "flutter mane",
+		"types": ["ghost", "fairy"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0987.png",
+		"default": ""
+	},
+	{
+		"id": "0988",
+		"name": "slither wing",
+		"types": ["bug", "fighting"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0988.png",
+		"default": ""
+	},
+	{
+		"id": "0989",
+		"name": "sandy shocks",
+		"types": ["electric", "ground"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0989.png",
+		"default": ""
+	},
+	{
+		"id": "0990",
+		"name": "iron treads",
+		"types": ["ground", "steel"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0990.png",
+		"default": ""
+	},
+	{
+		"id": "0991",
+		"name": "iron bundle",
+		"types": ["ice", "water"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0991.png",
+		"default": ""
+	},
+	{
+		"id": "0992",
+		"name": "iron hands",
+		"types": ["fighting", "electric"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0992.png",
+		"default": ""
+	},
+	{
+		"id": "0993",
+		"name": "iron jugulis",
+		"types": ["dark", "flying"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0993.png",
+		"default": ""
+	},
+	{
+		"id": "0994",
+		"name": "iron moth",
+		"types": ["fire", "poison"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0994.png",
+		"default": ""
+	},
+	{
+		"id": "0995",
+		"name": "iron thorns",
+		"types": ["rock", "electric"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0995.png",
+		"default": ""
+	},
+	{
+		"id": "0996",
+		"name": "frigibax",
+		"types": ["dragon", "ice"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0996.png",
+		"default": ""
+	},
+	{
+		"id": "0997",
+		"name": "arctibax",
+		"types": ["dragon", "ice"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0997.png",
+		"default": ""
+	},
+	{
+		"id": "0998",
+		"name": "baxcalibur",
+		"types": ["dragon", "ice"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0998.png",
+		"default": ""
+	},
+	{
+		"id": "0999",
+		"name": "gimmighoul",
+		"types": ["ghost"],
+		"mega": [],
+		"variant": [],
+		"forms": [
+			{
+				"name": "chest form",
+				"types": ["ghost"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0999.png"
+			},
+			{
+				"name": "roaming form",
+				"types": ["ghost"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0999-roaming.png"
+			}
+		],
+		"default": "chest",
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0999.png"
+	},
+	{
+		"id": "1000",
+		"name": "gholdengo",
+		"types": ["steel", "ghost"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/1000.png",
+		"default": ""
+	},
+	{
+		"id": "1001",
+		"name": "wo-chien",
+		"types": ["dark", "grass"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/1001.png",
+		"default": ""
+	},
+	{
+		"id": "1002",
+		"name": "chien-pao",
+		"types": ["dark", "ice"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/1002.png",
+		"default": ""
+	},
+	{
+		"id": "1003",
+		"name": "ting-lu",
+		"types": ["dark", "ground"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/1003.png",
+		"default": ""
+	},
+	{
+		"id": "1004",
+		"name": "chi-yu",
+		"types": ["dark", "fire"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/1004.png",
+		"default": ""
+	},
+	{
+		"id": "1005",
+		"name": "roaring moon",
+		"types": ["dragon", "dark"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/1005.png",
+		"default": ""
+	},
+	{
+		"id": "1006",
+		"name": "iron valiant",
+		"types": ["fairy", "fighting"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/1006.png",
+		"default": ""
+	},
+	{
+		"id": "1007",
+		"name": "koraidon",
+		"types": ["fighting", "dragon"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/1007.png",
+		"default": ""
+	},
+	{
+		"id": "1008",
+		"name": "miraidon",
+		"types": ["electric", "dragon"],
+		"mega": [],
+		"variant": [],
+		"forms": [],
+		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/1008.png",
+		"default": ""
 	}
 ]
