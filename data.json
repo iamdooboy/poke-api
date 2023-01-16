@@ -9885,7 +9885,7 @@
 			{
 				"name": "gigantamax toxtricity",
 				"types": ["electric", "poison"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0849-amped-gmax.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0849-gmax.png"
 			}
 		],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0849.png",
@@ -10388,7 +10388,13 @@
 		"types": ["poison", "dragon"],
 		"mega": [],
 		"variant": [],
-		"forms": [],
+		"forms": [
+			{
+				"name": "eternamax eternatus",
+				"types": ["poison", "dragon"],
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0890-eternamax.png"
+			}
+		],
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0890.png",
 		"default": ""
 	},
@@ -10812,7 +10818,7 @@
 			{
 				"name": "family of three",
 				"types": ["normal"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0925-family-of-three.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0925-three.png"
 			}
 		],
 		"default": "family of four",
@@ -10883,17 +10889,17 @@
 			{
 				"name": "blue form",
 				"types": ["normal", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931-blue-plumage.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931-blue.png"
 			},
 			{
 				"name": "yellow plumage",
 				"types": ["normal", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931-yellow-plumage.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931-yellow.png"
 			},
 			{
 				"name": "white form",
 				"types": ["normal", "flying"],
-				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931-white-plumage.png"
+				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0931-white.png"
 			}
 		],
 		"default": "green plumage",
@@ -11459,7 +11465,7 @@
 	},
 	{
 		"id": "0984",
-		"name": "great tusk",
+		"name": "great-tusk",
 		"types": ["ground", "fighting"],
 		"mega": [],
 		"variant": [],
@@ -11469,7 +11475,7 @@
 	},
 	{
 		"id": "0985",
-		"name": "scream tail",
+		"name": "scream-tail",
 		"types": ["fairy", "psychic"],
 		"mega": [],
 		"variant": [],
@@ -11479,7 +11485,7 @@
 	},
 	{
 		"id": "0986",
-		"name": "brute bonnet",
+		"name": "brute-bonnet",
 		"types": ["grass", "dark"],
 		"mega": [],
 		"variant": [],
@@ -11489,7 +11495,7 @@
 	},
 	{
 		"id": "0987",
-		"name": "flutter mane",
+		"name": "flutter-mane",
 		"types": ["ghost", "fairy"],
 		"mega": [],
 		"variant": [],
@@ -11499,7 +11505,7 @@
 	},
 	{
 		"id": "0988",
-		"name": "slither wing",
+		"name": "slither-wing",
 		"types": ["bug", "fighting"],
 		"mega": [],
 		"variant": [],
@@ -11509,7 +11515,7 @@
 	},
 	{
 		"id": "0989",
-		"name": "sandy shocks",
+		"name": "sandy-shocks",
 		"types": ["electric", "ground"],
 		"mega": [],
 		"variant": [],
@@ -11519,7 +11525,7 @@
 	},
 	{
 		"id": "0990",
-		"name": "iron treads",
+		"name": "iron-treads",
 		"types": ["ground", "steel"],
 		"mega": [],
 		"variant": [],
@@ -11529,7 +11535,7 @@
 	},
 	{
 		"id": "0991",
-		"name": "iron bundle",
+		"name": "iron-bundle",
 		"types": ["ice", "water"],
 		"mega": [],
 		"variant": [],
@@ -11539,7 +11545,7 @@
 	},
 	{
 		"id": "0992",
-		"name": "iron hands",
+		"name": "iron-hands",
 		"types": ["fighting", "electric"],
 		"mega": [],
 		"variant": [],
@@ -11549,7 +11555,7 @@
 	},
 	{
 		"id": "0993",
-		"name": "iron jugulis",
+		"name": "iron-jugulis",
 		"types": ["dark", "flying"],
 		"mega": [],
 		"variant": [],
@@ -11559,7 +11565,7 @@
 	},
 	{
 		"id": "0994",
-		"name": "iron moth",
+		"name": "iron-moth",
 		"types": ["fire", "poison"],
 		"mega": [],
 		"variant": [],
@@ -11569,7 +11575,7 @@
 	},
 	{
 		"id": "0995",
-		"name": "iron thorns",
+		"name": "iron-thorns",
 		"types": ["rock", "electric"],
 		"mega": [],
 		"variant": [],
@@ -11625,7 +11631,7 @@
 				"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0999-roaming.png"
 			}
 		],
-		"default": "chest",
+		"default": "chest form",
 		"image": "https://raw.githubusercontent.com/iamdooboy/pokemon-images/main/assets/images/0999.png"
 	},
 	{
@@ -11680,7 +11686,7 @@
 	},
 	{
 		"id": "1005",
-		"name": "roaring moon",
+		"name": "roaring-moon",
 		"types": ["dragon", "dark"],
 		"mega": [],
 		"variant": [],
@@ -11690,7 +11696,7 @@
 	},
 	{
 		"id": "1006",
-		"name": "iron valiant",
+		"name": "iron-valiant",
 		"types": ["fairy", "fighting"],
 		"mega": [],
 		"variant": [],
