@@ -51,7 +51,7 @@ app.get('/api/gen/:id', (req, res) => {
 
 	if (req.params.id === '9') return res.status(200).send(data.slice(905, 1008))
 
-	res.status(404).send('Generation not found')
+	res.status(404).send({ message: 'Generation not found' })
 })
 
 app.listen(PORT)
