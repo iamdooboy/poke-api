@@ -17,12 +17,6 @@ const corsOptions = {
 app.use(cors(corsOptions))
 app.use(express.json())
 
-const getRandomInt = (min, max) => {
-	min = Math.ceil(min)
-	max = Math.floor(max)
-	return Math.floor(Math.random() * (max - min) + min) // The maximum is exclusive and the minimum is inclusive
-}
-
 app.get('/api/pokemon', (req, res) => {
 	res.status(200).send(data)
 })
@@ -35,12 +29,6 @@ app.get('/api/pokemon/:id', (req, res) => {
 		return p.name === req.params.id
 	})
 	if (!pokemon) return res.status(404).send('Pokemon not found')
-	res.status(200).send(pokemon)
-})
-
-app.get('/api/random', (req, res) => {
-	const random = getRandomInt(0, 1009)
-	const pokemon = data[random]
 	res.status(200).send(pokemon)
 })
 
